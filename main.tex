@@ -1,0 +1,61 @@
+\documentclass[%
+master, % 硕士
+%doctor, % 博士
+cleardb,% 章节奇数开始
+]{sysuthesis}
+
+\usepackage{comment}
+\usepackage{tabularx}
+
+%20210223-modefied by 张雪婷
+\usepackage{verbatim}
+
+% 新增for 表格多行
+\usepackage{multirow}
+\usepackage{diagbox} % 加载宏包
+
+%花体字
+\usepackage{mathrsfs}
+
+% 定义所有的.eps/.pdf图片文件在figures子目录下
+\graphicspath{{figs/}}
+
+\begin{document}
+
+%%===================
+%% 录入个人信息
+%\input{info}
+
+%%===================
+%% 封面
+%\makecover
+
+%%===================
+%\frontmatter
+%% 摘要
+%\input{abstract}
+
+%%===================
+%% 目录
+%\tableofcontents
+
+%%====================
+%\mainmatter
+%% 正文
+\input{chapter1}
+%\input{chapter2}
+%\input{chapter3}
+%\input{chapter4}
+%\input{chapter5}
+
+%%====================
+%% 参考文献
+%\addcontentsline{toc}{chapter}{\bibname}
+%\bibliographystyle{gbt7714-2005}
+%\bibliography{refs}
+
+%%====================
+%% 发表工作
+%\input{publist}
+
+\end{document}
