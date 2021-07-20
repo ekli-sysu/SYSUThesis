@@ -14,4 +14,7 @@ If you have any problems, please do not hesitate to contact me through e-mail.
 
 I suggest you to install `texlive` for any OS.
 
-`CTEX` in `Windows` can also used.
+## `CTEX` in `Windows` can also used
+
+You should add the option `usectex` in `documentclass`
+
